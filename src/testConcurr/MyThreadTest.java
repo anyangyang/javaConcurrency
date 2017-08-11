@@ -1,5 +1,6 @@
 package testConcurr;
 
+import StopThread.YieldMethodTest;
 import concurrency.MyRunnable;
 import concurrency.MyThread;
 
@@ -10,9 +11,13 @@ public class MyThreadTest {
 
     public static void main(String[] args){
 
-            MyThread myThread = new MyThread();
-            new Thread(new MyRunnable()).start();
-            myThread.start();
-            System.out.println("运行结束");
+//            MyThread myThread = new MyThread();
+//            new Thread(new MyRunnable()).start();
+//            myThread.start();
+            //System.out.println("current_Thread:"+Thread.currentThread());
+        YieldMethodTest yieldMethodTest = new YieldMethodTest();
+        yieldMethodTest.start();
+
+
     }
 }

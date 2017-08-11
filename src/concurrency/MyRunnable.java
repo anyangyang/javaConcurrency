@@ -6,6 +6,6 @@ package concurrency;
 public class MyRunnable implements Runnable {
     @Override
     public void run() {
-        System.out.println("this is my first Runnable");
+        System.out.println("current_Runnable_Thread:"+Thread.currentThread().getId());
     }
 }
