@@ -44,6 +44,18 @@ public class User {
         System.out.println("线程"+Thread.currentThread().getName()+":end");
     }
 
+    public synchronized void modifiedAge(int age){
+        try{
+            System.out.println("线程"+Thread.currentThread().getName()+":begin");
+            this.age = age;
+            Thread.sleep(2000);
+            System.out.println("线程"+Thread.currentThread().getName()+"的年龄为："+this.age);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
+    }
+
     public static void main(String[] args){
         User user = new User();
         System.out.println(user.age);
