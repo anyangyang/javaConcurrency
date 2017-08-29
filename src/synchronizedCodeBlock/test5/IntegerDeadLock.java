@@ -1,0 +1,7 @@
+package synchronizedCodeBlock.test5;
+
+/**
+ * Created by zhujiating on 2017/8/28.
+ */
+public class IntegerDeadLock {
+}
