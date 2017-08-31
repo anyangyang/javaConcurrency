@@ -15,7 +15,7 @@ public class MainMethod {
         PipedOutputStream pipedOutputStream = new PipedOutputStream();
         PipedInputStream pipedInputStream = new PipedInputStream();
 
-        pipedInputStream.connect(pipedOutputStream);       //将管道输出流和管道输入流绑定
+        pipedInputStream.connect(pipedOutputStream);       //将管道输出流和管道输入流绑定,这一步是通信的基础
 
         ReadThread readThread = new ReadThread(pipedInputStream,readDate);
         WriteThread writeThread = new WriteThread(pipedOutputStream,writeDate);

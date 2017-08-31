@@ -10,7 +10,7 @@ public class ReadDate {
 
     public void read(PipedInputStream pipedInputStream)throws IOException{
         byte[] res = new byte[20];
-        int readLength = pipedInputStream.read(res);
+        int readLength = pipedInputStream.read(res);          // 字节流的方式
         while(readLength > -1){
             String response = new String(res,0,readLength);
             System.out.println(response);

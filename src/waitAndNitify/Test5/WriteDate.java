@@ -13,7 +13,7 @@ public class WriteDate {
         String request = null;
         for(int i=0;i<100;i++){
             request = " "+i;
-            pipedWriter.write(request);
+            pipedWriter.write(request);          //  这一步也非常重要，在管道字节输出流中，不用将字符串转换成字节数组，而是直接输出
         }
         pipedWriter.close();
     }

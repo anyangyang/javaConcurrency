@@ -10,7 +10,7 @@ import java.io.PipedReader;
 public class ReadDate {
 
     public void read(PipedReader pipedReader)throws IOException{
-        char[] res = new char[20];
+        char[] res = new char[20];               // 相对于管道字节流来说，最重要的修改就是这一步，申请的是字符数组，而不是字节数组
         int readLength = pipedReader.read(res);
         while(readLength > -1){
             String response = new String(res,0,readLength);

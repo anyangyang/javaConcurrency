@@ -12,7 +12,7 @@ public class WriteDate {
         String request = null;
         for(int i=0;i<100;i++){
             request = " "+i;
-            pipedOutputStream.write(request.getBytes());
+            pipedOutputStream.write(request.getBytes());           // 字节流，最后的东西都要转化成字节的方式来进行传输
         }
         pipedOutputStream.close();
     }
