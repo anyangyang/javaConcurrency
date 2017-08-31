@@ -6,8 +6,14 @@ package synchronizedCodeBlock.test4;
 public class StringTest {
 
     public static void main(String[] args){
-        String a = "abc";
-        String b = "a"+"b"+"c";
-        System.out.println(a == b);
+//        String a = "abc";
+//        String b = "a"+"b"+"c";
+//        System.out.println(a == b);
+
+        String a = "1";
+
+
+
+
     }
 }
