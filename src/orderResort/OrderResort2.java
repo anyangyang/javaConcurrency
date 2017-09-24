@@ -24,7 +24,7 @@ public class OrderResort2 {
 
     public static void main(String[] args) throws InterruptedException{
         int counter = 50;
-        OrderResort2 orderResort2 = new OrderResort2();
+        final OrderResort2 orderResort2 = new OrderResort2();
         for(int i=0;i<counter;i++){
             orderResort2.a = 0;
             orderResort2.flag = false;
