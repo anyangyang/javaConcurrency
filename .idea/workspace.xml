@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6093b302-b97c-4519-b9d8-1485e0784285" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticBlockMyObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticInnerMyObject.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/javaConCurrency/singltenAndConcurrency/lazyPattern/SafeMyObjecet$2.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaConCurrency/singltenAndConcurrency/lazyPattern/SafeMyObjecet$1.class" afterPath="$PROJECT_DIR$/out/production/javaConCurrency/singltenAndConcurrency/lazyPattern/SafeMyObjecet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaConCurrency/singltenAndConcurrency/lazyPattern/SafeMyObjecet.class" afterPath="$PROJECT_DIR$/out/production/javaConCurrency/singltenAndConcurrency/lazyPattern/SafeMyObjecet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java" afterPath="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +51,12 @@
       <file leaf-file-name="MyObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/MyObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#348#513#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,14 +75,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeMyObjecet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SafeMyObjecet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+            <state relative-caret-position="212">
+              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
               <folding>
-                <element signature="e#750#1026#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1288#1566#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticInnerMyObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticInnerMyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#449#732#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticBlockMyObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticBlockMyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#523#826#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test2/CycleUtil.java" />
-        <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test1/MyTread.java" />
-        <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test1/ThreadTask.java" />
-        <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test3/ThreadDosomething.java" />
         <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test3/ThreadDoElse.java" />
         <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test3/MainTest.java" />
         <option value="$PROJECT_DIR$/src/synchronizedCodeBlock/test3/ThreadPrintA.java" />
@@ -171,7 +200,11 @@
         <option value="$PROJECT_DIR$/src/TimerTest/TimerTest1.java" />
         <option value="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/MyObject.java" />
         <option value="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/StaticInnerMyObject.java" />
         <option value="$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java" />
+        <option value="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticInnerMyObject.java" />
+        <option value="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticBlockMyObject.java" />
+        <option value="$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/EnumMyObject.java" />
       </list>
     </option>
   </component>
@@ -224,6 +257,13 @@
               <item name="javaConcurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="singltenAndConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="hungryPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaConcurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="singltenAndConcurrency" type="462c0819:PsiDirectoryNode" />
               <item name="lazyPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -261,26 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SafeMyObjecet">
-    <configuration name="MainMethod (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="JoinTest.test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="JoinTest.test1.MainMethod" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javaConCurrency" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.StaticBlockMyObject">
     <configuration name="MyObject (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="singltenAndConcurrency.lazyPattern.MyObject" />
@@ -323,9 +344,23 @@
       <module name="javaConCurrency" />
       <envs />
     </configuration>
-    <configuration name="TimerTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticBlockMyObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TimerTest.TimerTest1" />
+      <option name="MAIN_CLASS_NAME" value="singltenAndConcurrency.hungryPattern.StaticBlockMyObject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaConCurrency" />
+      <envs />
+    </configuration>
+    <configuration name="StaticInnerMyObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="singltenAndConcurrency.hungryPattern.StaticInnerMyObject" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -828,19 +863,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainMethod (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimerTest1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyObject" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyObject (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SafeMyObjecet" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MyObject" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyObject (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SafeMyObjecet" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StaticInnerMyObject" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StaticBlockMyObject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SafeMyObjecet" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyObject (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyObject" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TimerTest1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainMethod (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StaticBlockMyObject" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StaticInnerMyObject" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SafeMyObjecet" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyObject (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MyObject" />
       </list>
     </recent_temporary>
   </component>
@@ -959,21 +994,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
-    <entry file="file://$PROJECT_DIR$/src/volatileTest/MainMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/synchronizedCodeBlock/test5/IntegerDeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
     <entry file="file://$PROJECT_DIR$/src/volatileTest/OrdinaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1251,19 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#348#513#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/MyObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1277,11 +1284,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/lazyPattern/SafeMyObjecet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        <state relative-caret-position="212">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
           <folding>
-            <element signature="e#750#1026#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1566#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#348#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/EnumMyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticInnerMyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#449#732#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singltenAndConcurrency/hungryPattern/StaticBlockMyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#523#826#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
